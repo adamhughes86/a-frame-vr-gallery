@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+    </head>
+
+    <body>
+        <a-scene>
+            <a-assets>
+                <a-asset-item id="gallery-obj" src="../gallery/model.obj"></a-asset-item>
+                <a-asset-item id="gallery-mtl" src="../gallery/materials.mtl"></a-asset-item>
+            </a-assets>
+
+            <a-entity obj-model="obj: #gallery-obj; mtl: #gallery-mtl"></a-entity>
+
+            <a-entity id="camera" camera position="0 0.5 -3.0" rotation="0 180 0" look-controls></a-entity>
+        </a-scene>
+    </body>
+</html>
