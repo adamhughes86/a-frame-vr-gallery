@@ -2,6 +2,8 @@
 
 This is an A-Frame demo from Adam Hughes. It is used on my talks and a tutorial can be found on [Web Designer Depot](https://www.webdesignerdepot.com/2017/11/creating-webvr-experiences-with-a-frame/)
 
+A live example of the project can be accessed on my [website](http://forwardtheory.co.uk/example/vr-gallery/index.html)
+
 ## Note:
 To run this project locally you need to have some sort of local server running.
 
